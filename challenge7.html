@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Challenges</title>
+    <link rel="stylesheet" href="css/davis1.css">
+
+</head>
+<body>
+    <h1>JavaScript Basic Challenges</h1>
+    <h2>Challenge 6</h2>
+
+    <script>
+
+       function boxton(){
+        var box = prompt("Input your number", "");
+
+        if ( box < 10 ){
+            console.log("Your number is smaller than 10");
+            for ( var i=0; i<10; i++){
+            console.log(`"Here is a ${i}`);
+            }
+        } else if ( box > 9){
+            console.log("That's a huge number!");
+        } else{
+            console.log("ERROR 404: You didn't enter a number!")
+        }
+       }
+
+       boxton();
+            
+
+        
+
+    </script>
+    
+</body>
+</html>

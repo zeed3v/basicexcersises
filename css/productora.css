@@ -1,0 +1,25 @@
+header{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+  display: inline;
+  background-color: #000080;
+  color: #FFFFFF;
+  border: 2px #000000;
+  text-decoration: none;
+  font-size: 200%;
+  font-family: 'Courier New', Courier, monospace;
+}
+h1{
+  font-size: 400%;
+  text-transform: uppercase;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+body{
+  background-color: #7fffd4;
+}
